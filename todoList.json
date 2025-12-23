@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Update springdoc-openapi version",
+    "description": "Update springdoc-openapi-starter-webmvc-ui ke versi terbaru agar kompatibel dengan Spring Boot 3.5.9 dan Spring Framework 6.2.15.",
+    "status": "in-progress"
+  },
+  {
+    "id": 2,
+    "title": "Bersihkan build dan cache Maven",
+    "description": "Jalankan mvnw clean dan hapus folder target untuk memastikan tidak ada cache lama yang menyebabkan error.",
+    "status": "not-started"
+  },
+  {
+    "id": 3,
+    "title": "Tes ulang aplikasi",
+    "description": "Jalankan aplikasi dan cek apakah error Swagger/OpenAPI sudah hilang.",
+    "status": "not-started"
+  }
+]
