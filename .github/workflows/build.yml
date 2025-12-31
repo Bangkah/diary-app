@@ -23,4 +23,8 @@ jobs:
         run: ant -buildfile build.xml
       - name: List build output
         run: ls -l dist
-      # Tambahkan langkah test atau upload artifact jika diperlukan
+      - name: Upload JAR artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: CatatanHarian-jar
+          path: dist/*.jar
